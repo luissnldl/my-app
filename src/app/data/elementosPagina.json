@@ -1,0 +1,216 @@
+{
+    "cybersecurity_objects": [
+      {
+        "type": "Tool",
+        "name": "Wireshark",
+        "description": "Herramienta de análisis de protocolos de red para capturar y examinar paquetes en tiempo real.",
+        "category": "Network Analysis",
+        "platforms": ["Windows", "Linux", "MacOS"],
+        "image": "https://ih1.redbubble.net/image.1188743058.6061/st,small,507x507-pad,600x600,f8f8f8.u2.jpg"
+      },
+      {
+        "type": "Tool",
+        "name": "Nmap",
+        "description": "Escáner de redes para detección de hosts y servicios.",
+        "category": "Network Scanning",
+        "platforms": ["Windows", "Linux", "MacOS"],
+        "image": "https://informaticatutoriales.com/wp-content/uploads/2020/05/unnamed.png"
+      },
+      {
+        "type": "Technique",
+        "name": "Phishing",
+        "description": "Método de ataque donde se engaña a las víctimas para que revelen información confidencial.",
+        "category": "Social Engineering",
+        "mitigation": ["Educación", "Filtros de correo", "Autenticación multifactor"],
+        "image": "https://static.vecteezy.com/system/resources/previews/000/173/208/non_2x/vector-phishing-concept.jpg"
+      },
+      {
+        "type": "Concept",
+        "name": "CIA Triad",
+        "description": "Modelo para guiar las políticas de seguridad en términos de Confidencialidad, Integridad y Disponibilidad.",
+        "components": ["Confidentiality", "Integrity", "Availability"],
+        "image": "https://media.infopay.net/uploads/--b09a9c7496e822ad5487807016c60952.webp"
+      },
+      {
+        "type": "Tool",
+        "name": "Burp Suite",
+        "description": "Herramienta para pruebas de seguridad en aplicaciones web.",
+        "category": "Web Security",
+        "platforms": ["Windows", "Linux", "MacOS"],
+        "image": "https://albertoestrada.es/wp-content/uploads/2023/02/burp-suite-logo.png"
+      },
+      {
+        "type": "Technique",
+        "name": "SQL Injection",
+        "description": "Vulnerabilidad que permite a un atacante inyectar código SQL en una consulta.",
+        "category": "Injection Attack",
+        "mitigation": ["Validación de entradas", "Uso de consultas preparadas", "Parcheo de software"],
+        "image": "https://seguridad.prestigia.es/wp-content/uploads/2019/12/Inyeccion-sql.jpg"
+      },
+      {
+        "type": "Concept",
+        "name": "Zero Trust",
+        "description": "Modelo de seguridad donde ningún usuario o dispositivo es automáticamente confiable.",
+        "principles": ["Verificar explícitamente", "Limitar privilegios", "Asumir compromiso"],
+        "image": "https://www.stealthlabs.com/wp-content/uploads/2021/03/zero-trust-security-stealthlabs.jpg"
+      },
+      {
+        "type": "Hardware",
+        "name": "Hardware Security Module (HSM)",
+        "description": "Dispositivo especializado para proteger claves criptográficas y realizar operaciones criptográficas seguras.",
+        "use_cases": ["Firmas digitales", "Cifrado/descifrado", "Autenticación"],
+        "vendors": ["Thales", "Entrust", "IBM"],
+        "image": "https://5.imimg.com/data5/SELLER/Default/2022/11/ZP/WM/AP/42174301/hsm-hardware-security-module-hsm-devices--500x500.png"
+      },
+      {
+        "type": "Hardware",
+        "name": "Firewall Appliance",
+        "description": "Dispositivo físico para controlar y monitorear el tráfico de red basado en políticas de seguridad.",
+        "use_cases": ["Prevención de intrusiones", "Filtrado de tráfico", "VPN"],
+        "vendors": ["Cisco", "Fortinet", "Palo Alto Networks"],
+        "image": "https://m.media-amazon.com/images/I/61wJWJx7i4L._AC_UF894,1000_QL80_.jpg"
+      },
+      {
+        "type": "Hardware",
+        "name": "Network Tap",
+        "description": "Dispositivo que permite capturar tráfico de red para análisis y monitoreo.",
+        "use_cases": ["Análisis de tráfico", "Detección de intrusos", "Pruebas de seguridad"],
+        "vendors": ["Garland Technology", "NetScout", "Ixia"],
+        "image": "https://www.profitap.com/wp-content/uploads/profishark-1g-plus-mirror-250px.png"
+      },
+      {
+        "type": "Hardware",
+        "name": "Raspberry Pi",
+        "description": "Computadora de placa única utilizada en proyectos de ciberseguridad como honeypots y escaneo de redes.",
+        "use_cases": ["Honeypots", "Pentesting portátil", "Laboratorios de simulación"],
+        "vendors": ["Raspberry Pi Foundation"],
+        "image": "https://banner2.cleanpng.com/20180714/bbs/aavj3y5mi.webp"
+      },
+      {
+        "type": "Hardware",
+        "name": "YubiKey",
+        "description": "Dispositivo de autenticación multifactor que utiliza estándares como FIDO y OTP.",
+        "use_cases": ["Autenticación de usuarios", "Acceso seguro", "Protección de cuentas"],
+        "vendors": ["Yubico"],
+        "image": "https://m.media-amazon.com/images/I/61vLLGXvWFL.jpg"
+      },
+      {
+        "type": "Hardware",
+        "name": "Flipper Zero",
+        "description": "Dispositivo multifuncional para pruebas de seguridad, que incluye emulación de RFID, análisis de señales y herramientas de pentesting.",
+        "use_cases": ["Exploración de señales", "Pruebas de dispositivos IoT", "Pentesting"],
+        "vendors": ["Flipper Devices"],
+        "image": "https://m.media-amazon.com/images/I/61hemQ6tndL._AC_UF894,1000_QL80_.jpg"
+      },
+      {
+        "type": "Software",
+        "name": "Metasploit",
+        "description": "Framework para pruebas de penetración que permite ejecutar y desarrollar exploits.",
+        "category": "Exploitation Framework",
+        "platforms": ["Windows", "Linux"],
+        "image": "https://pbs.twimg.com/profile_images/580131056629735424/2ENTk2K2_400x400.png"
+      },
+      {
+        "type": "Hardware",
+        "name": "Bash Bunny",
+        "description": "Dispositivo para ejecutar ataques automatizados, como robo de datos y escalada de privilegios.",
+        "use_cases": ["Ataques de inyección", "Robo de datos", "Simulación de amenazas"],
+        "vendors": ["Hak5"],
+        "image": "https://m.media-amazon.com/images/I/71RF+T1sPJS._AC_UF894,1000_QL80_.jpg"
+      },
+      {
+        "type": "Concept",
+        "name": "Defense in Depth",
+        "description": "Estrategia de seguridad que utiliza múltiples capas de defensa para proteger los sistemas.",
+        "principles": ["Redundancia", "Segmentación", "Monitoreo constante"],
+        "image": "https://miro.medium.com/v2/da:true/resize:fit:1200/0*dbGArKrf7DyiVBoE"
+      },
+      {
+        "type": "Hardware",
+        "name": "LAN Turtle",
+        "description": "Dispositivo oculto para acceder a redes de forma remota y ejecutar análisis de seguridad.",
+        "use_cases": ["Pentesting", "Acceso remoto", "Pruebas de vulnerabilidad"],
+        "vendors": ["Hak5"],
+        "image": "https://hackerwarehouse.com/wp-content/uploads/2020/09/hak5-lan-turtle-sd-454a0220a.jpg"
+      },
+      {
+        "type": "c",
+        "name": "John the Ripper",
+        "description": "Herramienta para el descifrado de contraseñas, diseñada para detectar debilidades en su almacenamiento.",
+        "category": "Password Cracking",
+        "platforms": ["Windows", "Linux", "MacOS"],
+        "image": "https://www.kolibers.com/images/blog/jtr_logo.jpeg"
+      },
+      {
+        "type": "Hardware",
+        "name": "Kali NetHunter",
+        "description": "Entorno de pruebas de penetración basado en dispositivos móviles.",
+        "use_cases": ["Pentesting móvil", "Exploración de redes", "Hacking ético"],
+        "vendors": ["Offensive Security"],
+        "image": "https://cdn.arstechnica.net/wp-content/uploads/2014/09/nethunter-demo-homescreen-thumb.jpg"
+      },
+      {
+        "type": "Technique",
+        "name": "Man-in-the-Middle (MitM)",
+        "description": "Ataque donde un actor intercepta y modifica la comunicación entre dos partes.",
+        "category": "Network Attack",
+        "mitigation": ["Cifrado TLS", "VPNs", "Autenticación mutua"],
+        "image": "https://www.claranet.com/br/sites/all/assets/br/man-in-the-middle-attack.png"
+      },
+      {
+        "type": "Tool",
+        "name": "OSSEC",
+        "description": "Sistema de detección de intrusos basado en host (HIDS) que analiza logs y monitorea integridad.",
+        "category": "Intrusion Detection",
+        "platforms": ["Linux", "Windows"],
+        "image": "https://wazuh.com/uploads/2016/05/ossec-post-icon.png"
+      },
+      {
+        "type": "Hardware",
+        "name": "Rubber Ducky",
+        "description": "Dispositivo USB diseñado para ejecutar scripts personalizados de inyección de teclado.",
+        "use_cases": ["Pruebas de ingeniería social", "Automatización de tareas", "Ataques físicos simulados"],
+        "vendors": ["Hak5"],
+        "image": "https://cdn.thehbpgroup.co.uk/thehbpgroup.co.uk/wp-content/uploads/sites/2/2023/01/Rubber-Ducky-4-1024x576.png"
+      },
+      {
+        "type": "Concept",
+        "name": "Social Engineering",
+        "description": "Técnicas de manipulación psicológica utilizadas para obtener acceso o información confidencial.",
+        "examples": ["Pretexting", "Tailgating", "Phishing"],
+        "image": "https://www.4cit.group/wp-content/uploads/2023/02/Social-engineering-impact-on-company.jpg"
+      },
+      {
+        "type": "Tool",
+        "name": "Aircrack-ng",
+        "description": "Conjunto de herramientas para analizar y romper claves de redes inalámbricas.",
+        "category": "Wireless Security",
+        "platforms": ["Linux", "Windows", "MacOS"],
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRN2erJm7c0qRAUayDZbdDs5MvB7wkOo_z9AQ&s"
+      },
+      {
+        "type": "Hardware",
+        "name": "Blue Team Field Manual (BTFM)",
+        "description": "Libro de referencia usado por equipos de defensa en ciberseguridad para incidentes y estrategias.",
+        "use_cases": ["Análisis de incidentes", "Planificación de defensa", "Documentación rápida"],
+        "vendors": ["Defensive Security"],
+        "image": "https://m.media-amazon.com/images/I/41E+R8vTwdL._AC_UF894,1000_QL80_.jpg"
+      },
+      {
+        "type": "Hardware",
+        "name": "Red Team Field Manual (RTFM)",
+        "description": "Libro de referencia rápida para profesionales de ciberseguridad ofensiva, con comandos útiles y ejemplos prácticos para pentesting y simulación de amenazas.",
+        "use_cases": ["Simulación de ataques", "Comandos para pentesting", "Resolución rápida en pruebas de seguridad"],
+        "categories": ["Offensive Security", "Red Teaming"],
+        "image": "https://images-eu.ssl-images-amazon.com/images/I/41D4kb8VHML._AC_UL600_SR600,600_.jpg",
+        "vendors": ["Amazon", "No Starch Press"]
+      },
+      {
+        "type": "Concept",
+        "name": "Red Teaming",
+        "description": "Pruebas en las que un grupo simula ataques reales para identificar vulnerabilidades en sistemas.",
+        "principles": ["Simulación de amenazas", "Evaluación continua", "Detección de debilidades"],
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRoFhzvFS1u-IseYRRLnixDTETDpkl_cngKvA&s"
+      }
+    ]
+  }
